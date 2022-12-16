@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "SauceDemo Regression Suite">
+    <parameter name = "browser" value = "chrome">
+    <test name = "Test" preserve-order="true">
+        <classes>
+            <class name = "tests.UserCanLogin"/>
+            <class name = "tests.UserAddsAnItemToCart"/>
+            <class name = "tests.UserCheckoutProduct"/>
+            <class name = "tests.UserCanLogout"/>
+
+        </classes>
+    </test>
+    </parameter>
+</suite>
